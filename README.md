@@ -14,13 +14,13 @@ Criada por José Leonardo Correa e Matheus Felipe Garcia.
      "name" : "Produto 1",
      "description" : "Descrição do produto",
      "value" : 5.99
-  },
+  },
   {
      "id" : 2,
      "name" : "Produto 2",
      "description" : "Descrição do produto 2",
      "value" : 8.99
-  }
+  }
 ]
 ```
 
