@@ -1,6 +1,30 @@
-# API para o aplicativo mobile
-Criada por José Leonardo Correa e Matheus Felipe Garcia
-##Criar base de dados:
+## API para o aplicativo APP COMPRAS
+
+Criada por José Leonardo Correa e Matheus Felipe Garcia.
+
+## Para executar:
+* PHP >= 5.5
+* MySQL
+
+## Exemplo de retorno da API:
+```json
+[
+  {
+     "id" : 1,
+     "name" : "Produto 1",
+     "description" : "Descrição do produto",
+     "value" : 5.99
+  },
+  {
+     "id" : 2,
+     "name" : "Produto 2",
+     "description" : "Descrição do produto 2",
+     "value" : 8.99
+  }
+]
+```
+
+## Script para criar base de dados:
 ```sql
 CREATE DATABASE IF NOT EXISTS `app-mobile`;
 USE `app-mobile`;
